@@ -2,9 +2,18 @@
 name = "rust-demo"
 version = "0.1.0"
 edition = "2021"
+authors = ["753450350@qq.com>"]
+license = "MIT OR Apache-2.0"
+description = "A tool to search files"
+readme = "README.md"
+homepage = "https://github.com/you/grrs"
+repository = "https://github.com/you/grrs"
+keywords = ["cli", "search", "demo"]
+categories = ["command-line-utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-cacao = "0.3.2"
-eval = "0.4"
+iced = "0.7.0"
+#iced_native = "0.8.0"
+time = "0.3.5"
